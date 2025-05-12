@@ -15,13 +15,11 @@ EXCEL_FILE = "orders.xlsx"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "👋 Assalomu alaykum hurmatli mijoz!
+        '''👋 Assalomu alaykum hurmatli mijoz!
 
-"
-        "Siz bu yerda mahsulotlarimizni buyurtma qilishingiz mumkin.
+Siz bu yerda mahsulotlarimizni buyurtma qilishingiz mumkin.
 
-"
-        "Iltimos, ismingizni yozing:"
+Iltimos, ismingizni yozing:'''
     )
     return ASK_NAME
 
